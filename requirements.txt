@@ -3,7 +3,7 @@ Flask==3.0.3
 functions-framework==3.5.0
 
 # translate.py 的依賴
-xai_sdk
+xai-sdk
 sentence_transformers==2.7.0
 numpy==1.26.4
 jieba==0.42.1
