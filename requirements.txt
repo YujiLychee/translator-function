@@ -1,9 +1,10 @@
-# 部署 API 的基礎框架
+# 部署 API 的基础框架
 Flask==3.0.3
-functions-framework==3.5.0
+gunicorn==21.2.0
 
-# translate.py 的依賴
+# translate.py 的依赖
 xai-sdk
 sentence_transformers==2.7.0
 numpy==1.26.4
 jieba==0.42.1
+requests==2.31.0
