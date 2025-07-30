@@ -3,8 +3,12 @@ Flask==3.0.3
 gunicorn==21.2.0
 
 # translate.py 的依赖
-xai-sdk
+xai-sdk>=1.0.0
 sentence_transformers==2.7.0
 numpy==1.26.4
 jieba==0.42.1
 requests==2.31.0
+
+# 额外的依赖（可能需要）
+torch>=1.9.0
+transformers>=4.20.0
