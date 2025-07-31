@@ -722,7 +722,7 @@ class GrokAPIService:
     def __init__(self, api_key: str = None):
         self.api_key = api_key or os.getenv("XAI_API_KEY")  # 從環境變數讀取 API Key
         self.base_url = "https://api.x.ai/v1"  # 備用，需確認 xAI 的正確端點
-        self.model = "grok-4"  # 使用 xAI 的 Grok 模型
+        self.model = "grok-3"  # 使用 xAI 的 Grok 模型
         self.timeout = 3600  # 與範例一致，設置長超時
         self.max_retries = 3
         
